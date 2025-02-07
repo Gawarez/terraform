@@ -32,3 +32,5 @@ resource "docker_container" "frontend" {
     external = 3000
   }
 }
+
+# Ref: https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs
